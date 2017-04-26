@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kazi.parkingapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView_Cost"
+        android:layout_alignStart="@+id/textView_Cost"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/textView_Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:layout_below="@+id/textView_name"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_name"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="97dp"
+        android:text="Reserve"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="135dp" />
+</RelativeLayout>
